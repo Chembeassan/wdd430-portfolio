@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WDD 430 Portfolio
 
-## Getting Started
+A personal portfolio site built with Next.js, TypeScript, and Tailwind CSS as part of WDD 430: Web Full-Stack Development.
 
-First, run the development server:
+## 🚀 Live Site
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+https://wdd430-portfolio-lilac.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📌 Featured Projects
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Football Team Management API
+A CSE 341 final project — a full REST API for managing football teams, players, and match data with authentication and CRUD operations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. Chamber of Commerce Website — A responsive website built with HTML, CSS, and JavaScript focusing on usability, accessibility, and responsive design best practices.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- Next.js (App Router)
+- React
+- TypeScript
+- Tailwind CSS
+- Vercel (deployment)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📁 Project Structure
+wdd430-portfolio/
+├── app/
+│ ├── layout.tsx (Root layout with Header and Footer)
+│ ├── page.tsx (Home page with project list)
+│ ├── about/
+│ │ └── page.tsx (About page with skills)
+│ └── api/
+│ └── hello/
+│ └── route.ts (Simple API route)
+├── components/
+│ ├── Header.tsx (Navigation header)
+│ ├── ProjectCard.tsx (Reusable project card)
+│ ├── ProjectList.tsx (Projects container)
+│ ├── SkillCard.tsx (Custom skill card)
+│ └── Footer.tsx (Footer with dynamic year)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This project is for educational purposes as part of WDD 430 at BYU-Idaho.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
